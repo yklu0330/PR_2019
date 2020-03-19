@@ -20,14 +20,14 @@
 1. 先將原始dataset的順序隨機排序，接著再隨機取c個sample座標當作群的中⼼點，也就是初始的prototype
 2. 將每筆sample和c個群中心點的歐⽒距離算出來，再依據公式算出每個sample和每個群的membership
 
-<div style="text-align: center">
-<img src="https://i.imgur.com/bn7zbTb.png" width="20%">
+<div align=center>
+<img src="https://i.imgur.com/bn7zbTb.png" width="20%"/>
 </div>
 
 3. 依據公式算出prototype
 
-<div style="text-align: center">
-<img src="https://i.imgur.com/NXmodW1.png" width="20%">
+<div align=center>
+<img src="https://i.imgur.com/NXmodW1.png" width="20%"/>
 </div>
 
 4. 重複以上2, 3步驟，直到membership改變的最大值⼩於設定的threshold
@@ -38,14 +38,14 @@
 
 2. 將每筆sample和c個群中心點的歐⽒距離算出來，再依據公式算出每個sample和每個群的membership
 
-<div style="text-align: center">
-<img src="https://i.imgur.com/yTDxPxp.png" width="20%">
+<div align=center>
+<img src="https://i.imgur.com/yTDxPxp.png" width="20%"/>
 </div>
 
 3. 依據公式算出prototype
 
-<div style="text-align: center">
-<img src="https://i.imgur.com/5zu5g3C.png" width="20%">
+<div align=center>
+<img src="https://i.imgur.com/5zu5g3C.png" width="20%"/>
 </div>
 
 4. 重複以上2, 3步驟，直到membership改變的最⼤值⼩於設定的threshold
