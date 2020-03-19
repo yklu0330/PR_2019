@@ -1,1 +1,1 @@
-## Pattern Recognization, NCTU, 2019 spring
+## Pattern Recognition, NCTU, 2019 spring
