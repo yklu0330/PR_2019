@@ -57,7 +57,7 @@ Here your goal is to use the provided face image datasets for gender classificat
 
 ### III. Eigenface and classification
 
-性別辨識的部分，我採⽤了Bayes classifier, Naïve-Bayes classifier, Linear classifer做最後的分類。⼈臉辨識的部分，經過多次測試，由於Bayes classifier不知道為什麼，在算probability density function的時候會⼀直算出singular matrix導致程式無法繼續，所以最後 我只用Naïve-Bayes classifier分類。 
+性別辨識的部分，我採⽤了Bayes classifier, Naïve-Bayes classifier, Linear classifer做最後的分類。⼈臉辨識的部分，經過多次測試，由於Bayes classifier不知道為什麼，在算probability density function的時候會⼀直算出singular matrix導致程式無法繼續，所以最後我只用Naïve-Bayes classifier分類。 
 
 為了瞭解降維對於資料分類表現的影響，在性別辨識的時候，我將資料維度從2到200的準確率和auc值做成折線圖，結果發現準確率和auc值在維度2~30的時候逐漸攀升，但到了30以後卻逐漸下降。⽽在⼈臉辨識的時候，到了維度100以後準確率和auc值也逐漸下降。我覺得可能是維度太高的話會overfitting，導致分類表現反⽽會變得更差。
 
